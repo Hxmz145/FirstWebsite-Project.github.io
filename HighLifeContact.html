@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<title>Highlife Contact</title>
+<link rel="stylesheet" href="Highlife.CSS">
+<link rel = "icon" href="TitleLogo.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<header>
+   <a href="Highlife_index.html"><img src="HighLife Property management.jpeg" align="left" width="300" height="100"></a>
+   <a href="HighLifeAbout.html" class="button ContactButton">About Us</a>
+   <a href="HighLifeContact.html"class="button ContactButton">Contact Us</a>
+   <a href="HighLifeRent.html" class="button ContactButton">Rent</a>
+</header>
+<body>
+   <div class="container">
+      <img class="building" src="Contact.jpg" style="width: 100%;">
+      <div class="front" id="change">Contact us</div>
+  </div>
+  <div class="form-group">
+   <form action="http://webdevbasics.net/scripts/demo.php" onsubmit="inputchecker()" name="form" method="post"required>
+      <label class="firstname">First Name</label><br>
+      <input type="text" name="Firstname"><br>
+      <label class="lastname">Last Name</label><br>
+      <input type="text" name="Lastname"><br>
+      <label class="firstname">Message</label><br>
+      <input type="text" class="textbox" name="Textbox">
+      <input type="submit" value="submit" class="sbutton">
+   </form>
+  </div>
+  <div class="dropdown">
+        <button class="SM">Menu</button>
+        <div class="dropdown-options">
+            <a href="Highlife_index.html">Home</a>
+            <a href="HighLifeAbout.html">About</a>
+            <a href="HighLifeContact.html">Contact</a>
+            <a href="HighLifeRent.html">Rent</a>
+        </div>
+    </div>
+</body>
+<footer class="fcontainer2">
+   <p style="color:antiquewhite;position:relative;top: 20px;">High Life Property management LLC 2023 </p>
+   <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+   <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+   <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+</footer>
+<script>
+   function inputchecker(){
+      var Firstname = document.forms["form"]["Firstname"].value;
+      var Lastname = document.forms["form"]["Lastname"].value;
+      var Textbox = document.forms["form"]["Textbox"].value;
+      if ((Firstname == ""|| Firstname == null) && (Lastname == "" || Lastname == null) && (Textbox == "" || Textbox == null)){
+         alert("Please fill out all required fields");
+         return false;
+      }
+   }
+</script>
+</html>

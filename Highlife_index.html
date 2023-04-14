@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<title>Highlife Property Management</title>
+<link rel="stylesheet" href="Highlife.CSS">
+<link rel = "icon" href="TitleLogo.png" type="image/x-icon">
+<link rel = "apple-touch-icon" href="TitleLogo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+    $(document).ready(function(){
+        $("#Specialize").click(function(){
+            $("#IMG").fadeIn(1000);
+            $("#Penthouse").fadeIn(1000);
+            $("#Mansion").fadeIn(3000);
+            $("#IMG2").fadeIn(3000);
+            $("#IMG3").fadeIn(5000);
+            $("#Condo").fadeIn(5000);
+        })
+    });
+</script>
+<header>
+   <a href="Highlife_index.html"><img src="HighLife Property management.jpeg" align="left" width="300" height="100"></a>
+   <a href="HighLifeAbout.html" class="button ContactButton">About Us</a>
+   <a href="HighLifeContact.html"class="button ContactButton">Contact Us</a>
+   <a href="HighLifeRent.html"class="button ContactButton">Rent</a>
+</header>
+<body>
+    <div class="container">
+        <img class="building" src="Nine skyscrapers coming to London.jpg" style="width: 100%;">
+        <div class="front">Luxurious Real Estate<br>Right at your fingertips</div>
+    </div>
+<main>
+    <h1>Welcome</h1>
+    <p>Welcome to our luxury property<br>
+        management company, where we offer bespoke services to cater to your every need.<br>
+        We understand that your property is a valuable asset and requires the utmost care and attention,<br> 
+        which is why we have assembled a team of experienced professionals who share our passion for excellence.<br> 
+        Our commitment to providing exceptional service extends to every aspect of property management,<br> 
+        from meticulous maintenance and repairs to personalized concierge services,<br>
+         ensuring that your property is always in the best possible condition.<br> 
+         At our company, we believe that every client is unique,<br> 
+         and we tailor our services to meet your individual needs and preferences.<br> 
+         Our goal is to provide you with peace of mind,<br>
+         knowing that your property is in the hands of experts who will go above and beyond to ensure your complete satisfaction.<br> 
+         Whether you are a homeowner or an investor, we are dedicated to maximizing the value and potential of your property,<br> 
+         while delivering an unmatched level of luxury and comfort.
+
+    </p>
+    <button class="Specialize" id="Specialize">
+        <h1>What we speicliaze in</h1>
+    </button>
+    <img id="Display">
+    <div class="container" id="Display">
+        <img id="IMG" src="Penthouse.jpg" style="display: none;" class="building">
+        <div id="Penthouse" class="Penthouse">Penthouse</div>
+    </div>
+    <div class="container" id="Hello">
+        <img id="IMG2" src="Mansion.jpg" style="display: none;" class="MansionIMG">
+        <div id="Mansion" class="Mansions">Manisons</div>
+    </div>
+    <div class="container" id="Hello">
+        <img id="IMG3" src="Apartments.jpg" style="display: none;" class="AIMG">
+        <div id="Condo" class="Condo">Condos</div>
+    </div>
+
+    <div class="dropdown">
+        <button class="SM">Menu</button>
+        <div class="dropdown-options">
+            <a href="Highlife_index.html">Home</a>
+            <a href="HighLifeAbout.html">About</a>
+            <a href="HighLifeContact.html">Contact</a>
+            <a href="HighLifeRent.html">Rent</a>
+        </div>
+    </div>
+
+</main>
+<footer class="fcontainer">
+    <p style="color:antiquewhite;position:relative;top: 20px;">High Life Property management LLC 2023 </p>
+    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+    <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,481 @@
+header{
+    background-color: white;
+}
+
+
+body{
+    background-color: white	;
+}
+
+.container{
+    position:relative;
+    text-align: left;
+    color: white;
+    width:1300px;
+}
+
+.SM{
+    display: none;
+}
+
+.dropdown{
+    display: none;
+}
+
+.building{
+    height: 400px;
+}
+
+.front{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    background-color: white;
+    border: none;
+    color:black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: 100px;
+}
+
+.ContactButton{
+    border: 2px solid #D1B000;
+    color:black;
+
+}
+
+
+.ContactButton:hover{
+    background-color: #D1B000 ;
+    color: white;
+}
+
+.Specialize{
+    background-color: aliceblue;
+    margin-left: 400px;
+    width: 500px;
+    border-color: #D1B000;
+}
+
+.Display{
+    display: none;
+}
+
+.Penthouse{
+    position:absolute;
+    top:10%;
+    left:15%;
+    transform:translate(-50%,-50%);
+    font-size: 100px;
+    color: #D1B000;
+    display: none;
+}
+.Mansions{
+    position: absolute;
+    bottom:300px;
+    left: 400px;
+    font-size: 100px;
+    color:#D1B000;
+    display: none;
+}
+
+.MansionIMG{
+    width:500px;
+    height:400px;
+    position:absolute;
+    bottom:5px;
+    left:400px;
+}
+
+.AIMG{
+    width:500px;
+    height:400px;
+    position:absolute;
+    bottom:5px;
+    left: 900px;
+    
+}
+
+.Condo{
+    position: absolute;
+    bottom:300px;
+    left: 900px;
+    font-size: 100px;
+    color:#D1B000;
+    display: none;
+
+}
+
+input{
+    border-color: #D1B000;
+    width: 200px;
+    height: 15px;
+    align-items: center;
+}
+label{
+    color: #D1B000;
+    font-size: 20px;
+}
+.sbutton{
+    border-color: #D1B000;
+    background-color: white;
+    height:30px;
+    color: #D1B000;
+}
+
+.fcontainer{
+    background-color: #D1B000;
+    color: #fff;
+    width:1450px;
+    position: relative;
+    height:100px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 20px;
+    text-decoration: none;
+    text-size-adjust: 40px;
+  }
+
+.fa-facebook {
+    position: relative;
+    left: 600px;
+    color: white;
+}
+
+.fa-instagram {
+    position: relative;
+    left: 600px;
+    color: white;
+}
+
+.fa-twitter {
+    position: relative;
+    left: 600px;
+    color: white;
+}
+
+.form-group{
+    background-color: #D1B000;
+    align-items: center;
+}
+.firstname{
+    color: white;
+}
+.lastname{
+    color:white;
+}
+.textbox{
+    width: 300px;
+    height:100px;
+}
+
+.history{
+    text-align: right;
+    bottom: 60px;
+}
+
+.condoprice{
+    color:#D1B000;
+}
+.condoprice2{
+    text-align: left;
+    color: #D1B000
+}
+.penthouseprice{
+    color:#D1B000;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.penthouseprice2{
+    position:relative;
+    color:#D1B000;
+    bottom: 100px;
+}
+.mansionprice{
+    text-align: right;
+    color: #D1B000;
+    position: relative;
+    bottom: 200px;
+}
+.mansionprice2{
+    text-align: right;
+    color: #D1B000;
+    position: relative;
+    bottom: 200px;
+}
+.fcontainer2{
+    background-color: #D1B000;
+    color: #fff;
+    width:1450px;
+    position: relative;
+    height:100px;
+}
+.historypic{
+    height: 500px;
+    position: relative;
+    left: 600px;
+}
+
+
+
+@media only screen and (max-width:768px){
+    .container{
+        width:600px;
+    }
+    .building{
+        height:600px;
+    }
+    footer{
+        width:200px
+    }
+    .fcontainer{
+        width: 768px;
+
+    }
+    .Specialize{
+        width:300px;
+        margin-left: 150px;
+    }
+    .Penthouse{
+        top:10%;
+        right: 20%;
+        left: 300px;
+      }
+    .MansionIMG{
+        left:5px;
+        bottom:-600px;
+        width: 600px;
+        height: 600px;
+    }
+    .Mansions{
+        bottom:-300px;
+        right: 20%;
+        left: 110px;
+
+    }
+
+    .AIMG{
+        left:5px;
+        bottom:-1200px;
+        height: 600px;
+        width:600px;
+
+    }
+    .Condo{
+        bottom:-700px;
+        right: 20%;
+        left: 110px;
+    }
+    .condoprice{
+        text-align: center;
+
+    }
+    .condoprice2{
+        text-align: center;
+        font-size: 90px;
+    }
+    .penthouseprice{
+        bottom:20px;
+    }
+    .penthouseprice2{
+        bottom:20px;
+        font-size: 90px;
+    }
+    .mansionprice{
+        text-align: center;
+        bottom:10px;
+    }
+    .mansionprice2{
+        text-align: center;
+        bottom: 10px;
+        font-size: 90px;
+    }
+    .fcontainer{
+        bottom:-1200px;
+    }
+    .fcontainer2{
+        bottom:-100px
+    }
+    .historypic{
+        left:100px;
+    }
+
+}
+
+@media only screen and (max-width:1000px){
+    .container{
+        width:900px
+    }
+    .fcontainer{
+        width: 1000px;
+    }
+    .fa-facebook{
+        left: 350px;
+    }
+    .fa-instagram{
+        left: 350px;
+    }
+    .fa-twitter{
+        left: 350px;
+    }
+    .fcontainer2{
+        width: 1000px;
+    }
+    .historypic{
+        left: 200px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        width:400px;
+    }
+
+    .ContactButton{
+        display: none;
+    }
+
+    .dropdown{
+        display: inline-block;
+        position:fixed;
+        top:50px;
+        left: 400px;
+        
+    }
+
+    .SM{
+        display: block;
+        border-radius: 10px;
+        padding:15px 30px;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    .SM:hover{
+        background-color: #D1B000;
+        color:white;
+    }
+
+    .dropdown-options {
+        display: none;
+        position: absolute;
+        overflow: auto;
+        background-color:#fff;
+        border-radius:5px;
+        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+      }
+      
+      .dropdown:hover .dropdown-options {
+        display: block;
+      }
+      
+      .dropdown-options a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+        padding:20px 40px;
+      }
+      
+      .dropdown-options a:hover {
+        color: white;
+        background-color: #D1B000;
+        border-radius:5px;
+      }
+    .Specialize{
+        width:200px;
+        margin-left: 150px;
+
+      }
+    .Penthouse{
+        top:10%;
+        right: 20%;
+        left: 110px;
+      }
+    .MansionIMG{
+        left:5px;
+        bottom:-600px;
+        width: 600px;
+        height: 600px;
+    }
+    .Mansions{
+        bottom:-300px;
+        right: 20%;
+        left: 110px;
+
+    }
+
+    .AIMG{
+        left:5px;
+        bottom:-1200px;
+        height: 600px;
+        width:600px;
+
+    }
+    .Condo{
+        bottom:-700px;
+        right: 20%;
+        left: 110px;
+    }
+    footer{
+        bottom:-1200px;
+    }
+    .fcontainer{
+        width:600px;
+    }
+    .fa-facebook{
+        left: 150px;
+    }
+    .fa-instagram{
+        left: 150px;
+    }
+    .fa-twitter{
+        left: 150px;
+    }
+    .fcontainer2{
+        width: 600px;
+    }
+    .historypic{
+        left: 50px;
+    }
+
+}
+
+h1{
+    color:#D1B000;
+    text-align: center;
+}
+
+p{
+    color: #D1B000;
+    text-align: center;
+}
+
+footer{
+    width: 30px;
+}
+
+
+
+  
+
